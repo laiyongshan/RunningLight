@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:id="@+id/bg_layout"
+    >
+
+    <com.yeohe.runninglightapplication.MarqueeText
+        android:id="@+id/tv_marquee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:ems="1"
+        android:text="竹杖芒鞋轻胜马，谁怕，一蓑烟雨任平生"
+        android:singleLine="true"
+        android:maxLength="25"
+        android:textSize="134sp"
+        android:focusable="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:focusableInTouchMode="true"
+        android:textColor="#fff"
+        />
+
+
+</LinearLayout>

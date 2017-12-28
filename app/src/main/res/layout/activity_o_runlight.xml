@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#000">
+
+        <com.yeohe.runninglightapplication.VerticalScrollTextView
+            android:id="@+id/tv_marquee"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:ems="1"
+            android:gravity="center"
+            android:text="KOBE   THANK   YOU"
+            android:textSize="144sp"
+            android:focusable="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusableInTouchMode="true"
+            android:textColor="#fff"
+            />
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

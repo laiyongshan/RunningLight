@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="switches">
+        <item>@style/LightSwitch</item>
+        <item>@style/DarkSwitch</item>
+    </array>
+
+    <array name="radio_button">
+        <item>@style/LightRadioButtonDrawable</item>
+        <item>@style/DarkRadioButtonDrawable</item>
+    </array>
+</resources>

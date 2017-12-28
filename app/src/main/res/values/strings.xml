@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">跑马溜溜</string>
+
+    <string name="permission_status_granted">Granted</string>
+    <string name="permission_status_unknown">Unknown</string>
+    <string name="permission_status_denied_once">Denied Once</string>
+    <string name="permission_status_denied_forever">Denied Forever</string>
+    <string name="permission_status_rationale">Show Rationale</string>
+
+    <string name="camera_rationale">Wee need camera permission !</string>
+    <string name="camera_deny_dialog">Without camera permission are disabled</string>
+
+</resources>
